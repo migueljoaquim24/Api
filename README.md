@@ -2,6 +2,9 @@
 
 Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Laravel. Ele fornece uma API para realizar operações básicas de criação, leitura, atualização e exclusão (CRUD) de tarefas.
 
+# Vídeo 
+<a>https://youtu.be/Ny18wAd3bNE<a>
+
 
 ## Uso
 
