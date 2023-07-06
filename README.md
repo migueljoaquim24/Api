@@ -11,10 +11,13 @@ Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Larav
 1. Inicie o servidor de desenvolvimento executando o comando `php artisan serve`.
 2. Use uma ferramenta de testes de API, como o Postman ou o Insomnia, para enviar requisições para a API.
 3. As rotas disponíveis são as seguintes:
+   <br>
+   utilizando a url que você escolheu no caso foi a automatica do localserver
+   http://localhost:8000
 
-   - `GET /api/tasks`: Lista todas as tarefas.
-   - `GET /api/tasks/id`: Obtém os detalhes de uma tarefa específica.
-   - `POST /api/tasks`: Cria uma nova tarefa. Requisição com o corpo (em JSON):
+   - `GET  http://localhost:8000/api/tasks`: Lista todas as tarefas.
+   - `GET  http://localhost:8000/api/tasks/id`: Obtém os detalhes de uma tarefa específica.
+   - `POST  http://localhost:8000/api/tasks`: Cria uma nova tarefa. Requisição com o corpo (em JSON):
      ```json
      {
        "title": "Título da Tarefa",
@@ -22,7 +25,7 @@ Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Larav
        "status": "true or false"
      }
      ```
-   - `PUT /api/tasks/id`: Atualiza os dados de uma tarefa existente. Requisição com o corpo (em JSON):
+   - `PUT  http://localhost:8000/api/tasks/id`: Atualiza os dados de uma tarefa existente. Requisição com o corpo (em JSON):
      ```json
      {
        "title": "Novo Título",
@@ -30,6 +33,6 @@ Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Larav
        "status": "true or false"
      }
      ```
-   - `DELETE /api/tasks/id`: Exclui uma tarefa.
+   - `DELETE  http://localhost:8000/api/tasks/id`: Exclui uma tarefa.
 
 
