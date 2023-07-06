@@ -19,7 +19,7 @@ Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Larav
      {
        "title": "Título da Tarefa",
        "description": "Descrição da Tarefa",
-       "status": true or false
+       "status": "true or false"
      }
      ```
    - `PUT /api/tasks/id`: Atualiza os dados de uma tarefa existente. Requisição com o corpo (em JSON):
@@ -27,7 +27,7 @@ Este é um sistema de gerenciamento de tarefas simples desenvolvido usando Larav
      {
        "title": "Novo Título",
        "description": "Nova Descrição",
-       "status": true or false
+       "status": "true or false"
      }
      ```
    - `DELETE /api/tasks/id`: Exclui uma tarefa.
